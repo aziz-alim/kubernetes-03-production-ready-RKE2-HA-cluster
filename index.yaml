@@ -9,7 +9,7 @@ entries:
     name: django-chart
     type: application
     urls:
-    - https://aziz-mevlana.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/django-chart-0.1.0.tgz
+    - https://aziz-alim.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/django-chart-0.1.0.tgz
     version: 0.1.0
   gateway:
   - apiVersion: v2
@@ -26,7 +26,7 @@ entries:
     - https://github.com/istio/istio
     type: application
     urls:
-    - https://aziz-mevlana.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/gateway-1.30.4.tgz
+    - https://aziz-alim.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/gateway-1.30.4.tgz
     version: 1.30.4
   istiod:
   - apiVersion: v2
@@ -43,7 +43,7 @@ entries:
     sources:
     - https://github.com/istio/istio
     urls:
-    - https://aziz-mevlana.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/istiod-1.30.4.tgz
+    - https://aziz-alim.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/istiod-1.30.4.tgz
     version: 1.30.4
   socket-chart:
   - apiVersion: v2
@@ -54,7 +54,7 @@ entries:
     name: socket-chart
     type: application
     urls:
-    - https://aziz-mevlana.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/socket-chart-1.2.0.tgz
+    - https://aziz-alim.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/socket-chart-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.0
@@ -64,6 +64,6 @@ entries:
     name: socket-chart
     type: application
     urls:
-    - https://aziz-mevlana.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/socket-chart-1.1.0.tgz
+    - https://aziz-alim.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/socket-chart-1.1.0.tgz
     version: 1.1.0
 generated: "2026-09-02T19:14:44.816425+03:00"
