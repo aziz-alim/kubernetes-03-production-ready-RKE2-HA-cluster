@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/aziz-mevlana/kubernetes-03-production-ready-RKE2-HA-cluster'
+    repoURL: 'https://github.com/aziz-alim/kubernetes-03-production-ready-RKE2-HA-cluster'
     path: deployments/django-chart
     targetRevision: HEAD
   destination:

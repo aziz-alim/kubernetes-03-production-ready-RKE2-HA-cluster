@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://aziz-mevlana.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/'
+    repoURL: 'https://aziz-alim.github.io/kubernetes-03-production-ready-RKE2-HA-cluster/'
     chart: socket-chart
     targetRevision: 1.1.0
     helm:
