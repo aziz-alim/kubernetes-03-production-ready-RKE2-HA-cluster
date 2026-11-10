@@ -21,8 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-hf+o78y#u4dn$)8z$k(a0%n6a6^vp=iew$_1x*lk&oq8)9y985'
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-hf+o78y#u4dn$)8z$k(a0%n6a6^vp=iew$_1x*lk&oq8)9y985')
+# Production key comes from the Helm-managed Secret; the fallback is for local dev/build only.
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-local-dev-only')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'
